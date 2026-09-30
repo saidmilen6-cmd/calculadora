@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+p {
+    height: 40px;
+    padding-right: 20px;
+    text-align: end;
+    background-color: lightgray;
+    font-size: 2rem;
+}
+
+button {
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 20%;
+
+}
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.resultado {
+    margin-top: 10rem;
+    justify-content: center;
+    
+}
+
+.valores {
+    grid-template-columns: repeat(3, 150px);
+    gap: 0.5rem;
+}
+
+.operadores {
+    grid-template-columns: 150px;
+    gap: 0.5rem;   
+}
