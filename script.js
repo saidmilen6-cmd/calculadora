@@ -17,9 +17,9 @@ butaoValores.forEach(botao => {
         
         if (valores == undefined){
             return false
-        } else if (olhar == 0) {
+        } else if (olhar == 0 && valores != ".") {
             resultado.innerText = valores
-        } else if(typeof valores){
+            } else if(typeof valores){
             resultado.innerText += `${valores}`
         }
         
