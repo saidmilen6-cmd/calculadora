@@ -25,4 +25,9 @@ butaoValores.forEach(botao => {
         
     })
 });
-    console.log(butaoValores)
+
+let remover = document.querySelector("#apagar")
+
+remover.addEventListener('click', () => {
+    resultado.innerText = 0
+})
