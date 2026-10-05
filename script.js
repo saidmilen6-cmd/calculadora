@@ -15,9 +15,7 @@ butaoValores.forEach(botao => {
         let valores = event.target.value
         let olhar = resultado.innerText
         
-        if (valores == undefined){
-            return false
-        } else if (olhar == 0 && valores != ".") {
+        if (olhar == 0 && valores != ".") {
             resultado.innerText = valores
             } else if(typeof valores){
             resultado.innerText += `${valores}`
